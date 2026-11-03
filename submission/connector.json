@@ -1,0 +1,71 @@
+{
+  "format": "adspirer-submission-kit-v1",
+  "version": "1.0.0",
+  "name": "Adspirer Social Ads",
+  "company": "Adspirer",
+  "description": "Paid social agent for Meta Ads (Facebook and Instagram) and TikTok Ads. Research competitor ads, review performance, catch creative fatigue and wasted spend, and plan, create and optimize campaigns, ad sets and ads, with your approval before any change that affects spend.",
+  "repository": "https://github.com/Adspirer/adspirer-social-ads-muse-connector",
+  "productWebsite": "https://www.adspirer.com/integrations/f/muse",
+  "documentation": "https://www.adspirer.com/docs/ai-clients/muse",
+  "mcpDocumentation": "https://www.adspirer.com/docs/mcp",
+  "privacyPolicy": "https://www.adspirer.com/privacy",
+  "termsOfService": "https://www.adspirer.com/terms",
+  "contactEmail": "abhi@adspirer.com",
+  "supportEmail": "support@adspirer.com",
+  "icon": "assets/icon.svg",
+  "connectionType": "Existing MCP",
+  "endpoint": "https://mcp.adspirer.com/social-ads",
+  "transport": "Streamable HTTP",
+  "authentication": "OAuth with PKCE",
+  "pkceMethod": "S256",
+  "accessRequirements": "An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Meta ad account (with a Facebook Page for ads that need one) or TikTok Ads advertiser account. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Meta and TikTok. Muse connector availability is subject to review and enablement.",
+  "toolCatalogDate": "2026-11-02",
+  "tools": [
+    {
+      "name": "get_connections_status",
+      "class": "Read"
+    },
+    {
+      "name": "get_usage_status",
+      "class": "Read"
+    },
+    {
+      "name": "get_tool_schema",
+      "class": "Read"
+    },
+    {
+      "name": "get_meta_campaign_performance",
+      "class": "Read"
+    },
+    {
+      "name": "competitor_ads_research",
+      "class": "Read"
+    },
+    {
+      "name": "meta_ads_read",
+      "class": "Read"
+    },
+    {
+      "name": "tiktok_ads_read",
+      "class": "Read"
+    },
+    {
+      "name": "activate_ad_accounts",
+      "class": "Write"
+    },
+    {
+      "name": "meta_ads_write",
+      "class": "Sensitive write"
+    },
+    {
+      "name": "tiktok_ads_write",
+      "class": "Sensitive write"
+    }
+  ],
+  "examplePrompts": [
+    "I sell handmade candles online and want more purchases on Instagram with $40 a day. Ask about my product, audience and landing page, then draft a Meta campaign with an ad set and three ad copy options. Show me the plan; if I approve, create it paused and do not turn it on without a separate yes.",
+    "Compare my Meta and TikTok ads over the last 14 complete days against the 14 before. Show spend, CPA, ROAS, CTR and frequency per platform, keep currencies separate, and point out any ads showing creative fatigue. Do not change anything.",
+    "Find wasted spend in my Meta account: ad sets with spend and no conversions over the last 30 days, and audiences that are saturated. Propose specific changes with the budget impact, and wait for my approval before applying any.",
+    "Show me what ads my biggest competitor is running on Meta right now (I'll give you their website): the angles, offers and formats. Then suggest three concepts for my brand that would stand out against them."
+  ]
+}
