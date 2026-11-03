@@ -22,7 +22,7 @@ This is Adspirer's company-owned **submission kit for the Muse hosted MCP connec
 - Why it beats the browser: it reads the user's own ad accounts through the Meta Marketing API and TikTok API for Business, so answers come from real account data. It finishes approved changes in the account instead of sending the user to Ads Manager.
 - Relationship to Meta: Adspirer is an independent Meta Marketing API developer. For Muse users who advertise on Meta, it manages their own ad accounts with their authorization.
 
-An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Meta ad account (with a Facebook Page for ads that need one) or TikTok Ads advertiser account. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Meta and TikTok. Muse connector availability is subject to review and enablement.
+An Adspirer account and admin access to at least one Meta ad account or TikTok Ads account (read-only access is enough for reporting).
 
 ## Tools
 
