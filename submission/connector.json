@@ -63,9 +63,10 @@
     }
   ],
   "examplePrompts": [
-    "I sell handmade candles online and want more purchases on Instagram with $40 a day. Ask about my product, audience and landing page, then draft a Meta campaign with an ad set and three ad copy options. Show me the plan; if I approve, create it paused and do not turn it on without a separate yes.",
-    "Compare my Meta and TikTok ads over the last 14 complete days against the 14 before. Show spend, CPA, ROAS, CTR and frequency per platform, keep currencies separate, and point out any ads showing creative fatigue. Do not change anything.",
-    "Find wasted spend in my Meta account: ad sets with spend and no conversions over the last 30 days, and audiences that are saturated. Propose specific changes with the budget impact, and wait for my approval before applying any.",
-    "Show me what ads my biggest competitor is running on Meta right now (I'll give you their website): the angles, offers and formats. Then suggest three concepts for my brand that would stand out against them."
+    "Show how my Meta and TikTok accounts have done over the last 90 days: each campaign with its status, impressions, clicks, spend and conversions. If there's no recent data, use the latest period that has data and tell me which dates the numbers cover.",
+    "Find wasted spend and creative fatigue across my Meta and TikTok ads over the last 90 days. Rank what to fix first, but don't change anything.",
+    "Help me research audiences: find Meta interest targeting for \"premium watches\" with audience sizes, and TikTok interest keywords for \"fitness\".",
+    "Create a paused Meta image campaign for my online watch store at $40 a day, targeting US watch and luxury shoppers, with a headline and primary text you write. Keep it paused, and tell me what you'd change to raise the budget to $50 without making that change.",
+    "Show me the ads my biggest competitor is running on Meta and TikTok right now, then suggest three ad concepts that would stand out against them."
   ]
 }
